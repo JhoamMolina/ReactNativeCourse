@@ -1,8 +1,12 @@
 import React from 'react';
-import ContadorScreen from './src/screens/ContadorScreen';
+import {Text, View} from 'react-native';
 
 const App = () => {
-  return <ContadorScreen />;
+  return (
+    <View>
+      <Text>App</Text>
+    </View>
+  );
 };
 
 export default App;
